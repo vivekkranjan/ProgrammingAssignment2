@@ -60,6 +60,6 @@ cacheSolve <- function(x, ...) {
   # Cache this result in the object
   x$setinverse(inv)
   
-  # Return this new result
+  # Return new result
   inv    
 }
