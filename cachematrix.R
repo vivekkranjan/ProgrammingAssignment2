@@ -57,7 +57,7 @@ cacheSolve <- function(x, ...) {
     # Returns the inverse for matrix that is alrady calculated
     if(!is.null(inv)) {
     
-       # Show message
+       # Show message while retreiving cached inverse
        message("Getting cached matrix....")
        return(inv)
     }
